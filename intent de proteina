@@ -1,0 +1,30 @@
+Amb aquest comado:
+exonerate -m p2g --showtargetgff -q la_meva_proteina.fa -t contig_11.fa > exonerate_output.gff
+
+    -m p2g ➔ mode "protein to genome" (proteïna contra DNA).
+
+    -q la_meva_proteina.fa ➔ la proteïna ortòloga que has trobat amb BLASTx.
+
+    -t contig_11.fa ➔ el teu contig (seqüència de DNA).
+
+    --showtargetgff ➔ treu sortida en format GFF, que és estàndard per anotacions de gens.
+
+    > exonerate_output.gff ➔ guarda els resultats en un fitxer .gff.
+
+Aleshores he filtrat nomes els exons 
+egrep -w exon exonerate_output.gff > exonerate_exons.gff
+
+Això crea un fitxer exonerate_exons.gff només amb les línies que són exons predits.
+
+doncs per extreure les seqüències reals de DNA corresponents als exons predits:
+bedtools getfasta -fi contig_11.fa -bed exonerate_exons.gff > exonerate_predicted_exons.fa
+
+Llavros tinc un fasta amb totes les seqüències dels exons.
+(Osigui el que vull es tobar, extreure i reconstruir la seqüència de DNA codificant (CDS) del contig, i després traduir-la en proteïna.)
+
+Amb el blastx he agafat una proteïna ortòloga dels resultats de BLASTx, la he descarregat en fasta a trabes del uniprot (la_meva_proteina.fa)i dons que fet tot aixo
+
+-  la seqüència de DNA codificant: exonerate_gene_singleline.fa
+-  traduir a proteïna: exonerate_predicted_protein.fa
+
+Ara busco la funció de la proteina, que si poso la sequencia de exonerate_predicted_protein.fa a uniprot la que s'hi assembla més és A0A9K3LLH7
