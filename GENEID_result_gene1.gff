@@ -1,0 +1,8 @@
+## gff-version 2
+## date Sun Apr 27 09:04:46 2025
+## source-version: geneid v 1.2 -- geneid@imim.es
+# Sequence contig_11 - Length = 4841 bps
+# Optimal Gene Structure. 2 genes. Score = 19.09 
+# Gene 1 (Forward). 1 exons. 6 aa. Score = 0.07 
+contig_11	geneid_v1.2	Terminal	197	213	 0.07	+	2	contig_11_1
+
