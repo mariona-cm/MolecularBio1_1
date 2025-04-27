@@ -7,15 +7,15 @@ NOTE: for picking up results, I downloaded a fasta with the first 10 sorted by E
 
 Ab-initio methods:
 
-GeneID: run it with our contig as input and Aradibopsis Thaliana as species of interest (as it’s the one closest to our organism obtained from Blastx search)
-RESULTS: 2 genes
-1. Very short gene (only 6 aa): 1 exon
-   Larger (341 aa): 7 exons
+- GeneID: run it with our contig as input and Aradibopsis Thaliana as species of interest (as it’s the one closest to our organism obtained from Blastx search)
+   RESULTS: 2 genes
+   1. Very short gene (only 6 aa): 1 exon
+      Larger (341 aa): 7 exons
 
-FGENESH: run it with our contig as input and brassica rapa as species of interest
-RESULTS: 1 gene with 13 exons
+- FGENESH: run it with our contig as input and brassica rapa as species of interest
+   RESULTS: 1 gene with 13 exons
 
-GENESCAN: website does not work
+- GENESCAN: website does not work
 
 Homology-based method:
 
