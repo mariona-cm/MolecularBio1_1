@@ -1,0 +1,14 @@
+contig_11	exonerate:protein2genome:local	exon	4179	4290	.	-	.	insertions 0 ; deletions 0 ; identity 94.59 ; similarity 97.30
+contig_11	exonerate:protein2genome:local	exon	4040	4083	.	-	.	insertions 0 ; deletions 0 ; identity 93.33 ; similarity 100.00
+contig_11	exonerate:protein2genome:local	exon	3676	3780	.	-	.	insertions 0 ; deletions 0 ; identity 94.44 ; similarity 97.22
+contig_11	exonerate:protein2genome:local	exon	3402	3529	.	-	.	insertions 0 ; deletions 0 ; identity 92.86 ; similarity 97.62
+contig_11	exonerate:protein2genome:local	exon	3177	3299	.	-	.	insertions 0 ; deletions 0 ; identity 97.50 ; similarity 97.50
+contig_11	exonerate:protein2genome:local	exon	2929	3082	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+contig_11	exonerate:protein2genome:local	exon	2587	2690	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+contig_11	exonerate:protein2genome:local	exon	2430	2508	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+contig_11	exonerate:protein2genome:local	exon	2263	2358	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+contig_11	exonerate:protein2genome:local	exon	2016	2153	.	-	.	insertions 0 ; deletions 0 ; identity 97.87 ; similarity 97.87
+contig_11	exonerate:protein2genome:local	exon	1429	1644	.	-	.	insertions 0 ; deletions 0 ; identity 98.63 ; similarity 98.63
+contig_11	exonerate:protein2genome:local	exon	1130	1321	.	-	.	insertions 0 ; deletions 0 ; identity 96.92 ; similarity 98.46
+contig_11	exonerate:protein2genome:local	exon	865	1008	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+contig_11	exonerate:protein2genome:local	exon	621	773	.	-	.	insertions 0 ; deletions 0 ; identity 98.04 ; similarity 100.00

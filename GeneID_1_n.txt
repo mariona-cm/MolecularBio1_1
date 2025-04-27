@@ -1,0 +1,2 @@
+>contig_11_1|geneid_v1.2_predicted_cDNA_1|17_NN
+ATCCATCATATGCGTAA
